@@ -14,5 +14,6 @@ for attempt in range(1, 10):
     else:
         print(f"Correct! You Are Won🎉 in {attempt} attempts")
         break
-else:  # এই else for loop-এর সাথে align
+else:  
     print(f"Sorry! You lost😥 The number was {r}")
+
